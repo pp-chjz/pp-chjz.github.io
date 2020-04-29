@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>predev</title>
+    </head>
+    <body>
+        <div class="centered">
+            <img class="picProfile" src="./img/testpic.jpg">
+            <table class="infoTable">
+                <tr>
+                    <th class="topic">Name</th>
+                    <td>Pirapat</td>
+                </tr>
+                <tr>
+                    <th class="topic">Sirname</th>
+                    <td>Jitcharoenwirakun</td>
+                </tr>
+                <tr>
+                    <th class="topic">
+                        Favorite food
+                    </th>
+                    <td>
+                        rice
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <style>
+            .centered
+            {
+                position: absolute;
+
+                background-color: tomato;
+                width: 500px;
+                text-align: center;
+
+                top: 50%;
+                left: 50%;
+
+                margin-left: -250px;
+                margin-top: -250px;
+
+                box-shadow: 4px 4px 4px rgba(38, 38, 38, 0.5);
+            }
+            .picProfile
+            {
+                width: 100px;
+                height: 100px;
+
+                border-radius: 100px;
+                margin-top: 50px;
+            }
+            .topic
+            {
+                padding: 15px;
+            }
+            .infoTable
+            {
+                margin-top: 30px;
+                margin-bottom: 30px;
+                margin-left: 20px;
+                margin-right: 20px;
+
+                width: 100%;
+                text-align: left;
+                font-family: monospace;
+                font-size: 20px;
+
+            }
+
+            .centered:hover
+            {
+                background-color: violet;
+                transition: all 0.2s ease-out;
+                
+                box-shadow: 4px 4px 4px rgba(38, 38, 38, 2);
+            }
+        </style>
+    </body>
+</html> 
+
